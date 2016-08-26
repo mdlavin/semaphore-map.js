@@ -1,6 +1,6 @@
 {
   "name": "semaphore-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A map of semaphores for easy tracking many semaphores by key",
   "main": "src/index.js",
   "scripts": {
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/mdlavin/semaphore-map.js#readme",
   "dependencies": {
-    "es6-map": "^0.1.4",
     "semaphore": "^1.0.5"
   },
   "devDependencies": {

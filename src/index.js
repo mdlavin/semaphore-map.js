@@ -1,6 +1,5 @@
 'use strict';
 const Semaphore = require('semaphore');
-const Map = require('es6-map');
 
 function SemaphoreMap (defaultSize) {
   if (defaultSize === undefined || defaultSize === null) {
