@@ -17,7 +17,7 @@ SemaphoreMap.prototype.take = function (key, fn) {
     this._semaphores.set(key, semaphore);
   }
 
-  semaphore.take(function () {
+  return semaphore.take(function () {
     // Strip the semaphore argument from the take callback because
     // if the semaphore is leaked then it might be used to leave
     // instead of the keyed leave below
